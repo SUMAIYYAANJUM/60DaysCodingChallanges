@@ -1,0 +1,29 @@
+/* control statement
+  control statement that which control flow of program is called controll statement.
+
+  there are three types of control statement 
+
+  selection statement(if,if else if,nested if,switch)
+  iteration statement(for,,while,do while)
+  jump statement(break,continue,return)
+
+  SELECTION STATEMENT
+    If Syntax
+       if(condition)
+        {
+           //body
+            block of code to be executed if the condition is true
+        }*/
+
+
+
+        class SelectionStatement
+        {
+	       public static void main(String args[])
+	       {
+	            if(50>30)
+	            {
+	            	System.out.print("50 is greater");
+	            }
+	       }
+        }
