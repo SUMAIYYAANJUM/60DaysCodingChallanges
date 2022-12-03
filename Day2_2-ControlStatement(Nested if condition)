@@ -1,0 +1,29 @@
+/*
+  Nested if 
+    nested means within. Nested if condition means if within if.
+   Nested if syntax
+      if(condition1)
+      {
+         if(condition2)
+         {
+             ........
+         }
+      }
+      */
+         class Day2Challenge2
+         {
+         	public static void main(String args[])
+         	{
+         		int a=30;
+         		int b=40;
+         		if(a==30){
+         			if(b!=40){
+         				System.out.println("college");
+         			}
+         			else{
+         				System.out.println("childhood");
+         			}
+         		}
+         	
+         }
+     }
