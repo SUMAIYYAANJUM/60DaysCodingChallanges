@@ -1,0 +1,41 @@
+/* Switch Statement
+
+     switch statement is a multiway branch statement.
+     switch statement defines the execution of program of multiple paths.
+      Instead of writing many if..else statements,we can use the switch statement.
+
+  switch syntax
+  switch(expression) {
+  case x:
+    // code block
+    break;        // break keyword:it breaks out of the switch block
+  case y:
+    // code block
+    break;
+  default:    //The default keyword specifies some code to run if there is no case match:
+    // code block
+}
+*/
+
+class SimpleSwitch {
+  public static void main(String[] args) {
+
+    int expression = 2;
+
+    // switch statement to check size
+    switch (expression) {
+      case 1:
+        System.out.println("Case 1");
+
+        // matching case
+      case 2:
+        System.out.println("Case 2");
+
+      case 3:
+        System.out.println("Case 3");
+
+      default:
+        System.out.println("Default case");
+    }
+  }
+}
