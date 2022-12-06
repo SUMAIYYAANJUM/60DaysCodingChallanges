@@ -1,0 +1,17 @@
+/*
+  !logical unary not operator
+   Logical NOT is a Unary Operator, it operates on single operands. It reverses the value of operands, if the value is true, then it gives false, and if it is false, then it gives true.
+   */
+
+   class UnaryNotOperator{
+     public static void main(String args[]){
+       boolean r=true;
+       if(!r)
+       {
+          System.out.println("a is true");
+       }
+       else{
+          System.out.print("a is false");
+       }
+     }
+   }
