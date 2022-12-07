@@ -1,0 +1,16 @@
+/* logical XOR ^ Operator
+It takes two values and returns true if they are different; otherwise returns false.
+*/
+class LogicalOperator
+{
+   public static void main(String args[])
+   {
+   	if(a%2==0 ^ a%4==0)
+   	{
+   		System.out.print("^ Operator");
+   	}
+   	else{
+   		System.out.print("no ^ Operator");
+   	}
+   }	
+}
