@@ -1,0 +1,25 @@
+/*
+Relatonal Operator
+
+  > greater than
+  < less than
+  >= greater than equal to
+  <= less than equal to
+
+
+ Basically this will written boolean type values.Meanwhile true or false.
+ it is used in conditional statements
+ it will called as a relational operator bcoz it finds relation between two variables to check variable is it greater or less.....
+*/
+    class Relational{
+       public static void main(String args[]){
+       	int s=21, k=19;
+       	if(s>k)
+       	{
+       		System.out.print("S is greater");
+       	}
+       	else{
+       		System.out.print("K is greaater")
+       	}
+       }
+    } 
