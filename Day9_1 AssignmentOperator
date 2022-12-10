@@ -1,0 +1,23 @@
+/*
+  Assignment Operator
+    types 
+      Simple assignment 
+      Compound assignment
+
+      = Assignment(this means we will use it to assign some values)
+      == means it use for check condition values
+*/
+
+      class SimpleAssignment{
+      	public static void main(String args[])
+      	{
+      		int a=7,b=8;
+      		if(a==b)
+      			{
+      				System.out.print("a is greater");
+      	}
+      	else{
+      		    System.out.print("b is greater");
+      	}
+      	} 
+      } 
