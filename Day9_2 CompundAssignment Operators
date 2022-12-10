@@ -1,0 +1,49 @@
+/*
+  Compound Assignment
+     provide a shorter syntax for assigning the result of an arithmetic or bitwise operator. They perform the operation on the two operands before assigning the result to the first operand.
+
+1.    += (compound addition assignment operator)
+2.    -=  (compound subtraction assignment operator)
+3.    *= (compound multiplication assignment operator)
+4.    /= (compound division assignment operator)
+5.    %= (compound modulo assignment operator)
+6.    &= (compound Bitwise & assignment operator)
+7.    |= (compound Bitwise | assignment operator)
+8.    ^= (compound Bitwise ^ assignment operator)
+9.    >>= (compound right-shift assignment operator)
+10.    >>>=(compound right-shift filled 0 assignment operator)
+11.    <<=(compound left-shift assignment operator)
+  
+  */
+
+public class CompoundAssignment1{
+	public static void main(String[] args) {
+		
+		byte b = 25;
+		System.out.println("Primitive byte Assignment- "+ b);
+		 
+		byte c =b;
+		System.out.println("Primitive byte Assignment from another byte variable- "+ c);
+		
+		int a = 23+b;
+		System.out.println("Primitive int Assignment from arithmetic operation- "+ a);
+		
+		short s = 45;
+		int x = b;		
+		int y = s;
+		System.out.println("Implicit Casting of byte to int- "+ x);
+		System.out.println("Implicit Casting of short to int- "+ y);
+		
+		int i = 10;
+		i+=10;
+		System.out.println("Addition Oprator- "+ i);
+		i-=10;
+		System.out.println("Subtraction Oprator- "+ i);	
+		i*=10;
+		System.out.println("Multiplication Operator- " + i);
+		i/=10;
+		System.out.println("Division Operator- " + i);
+		i%=3;
+		System.out.println("Reminder Operator- " + i);
+	}
+}
