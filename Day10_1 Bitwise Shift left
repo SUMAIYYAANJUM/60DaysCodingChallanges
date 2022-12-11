@@ -1,0 +1,15 @@
+/*
+  Bitwise Shift Left
+     The left shift operator, <<, simply shifts all of the bits in a value to the left, a specified number of times.
+
+     */
+
+     class LeftShift
+     {
+         public static void main(String args[])
+         {
+            int s=12;
+            int k=23;
+            System.out.println(+(s<<2));
+         }
+     }
