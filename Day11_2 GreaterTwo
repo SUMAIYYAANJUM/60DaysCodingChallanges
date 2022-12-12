@@ -1,0 +1,16 @@
+class GreaterTwo
+{
+	public static void main(String args[])
+	{
+		int a=22;
+		int s=33;
+		if(a>s)
+		{
+			System.out.println("You know K");
+		}
+			else
+			{
+				System.out.println("Sayyeda");
+			}
+	}
+}
