@@ -1,0 +1,7 @@
+class Beginner
+{
+	public static void main(String[] args)
+	{
+	System.out.println("ALLAH will help you.Only you try with patience until u get success.");
+	}
+}
