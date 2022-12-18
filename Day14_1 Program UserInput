@@ -1,0 +1,36 @@
+/*
+   Getting User Input In Java(Using Scanner class)
+
+   Scanner class will be in java.util package.
+   In Scanner class many methods will be there.
+    eample: nextInt()
+            nextLong(),etc.
+
+            when we are using Scanner class we have to write import java.util.Scanner; in first line.
+*/            
+               
+
+               import java.util.Scanner;
+            class UserInput
+            {
+                public static void main(String args[])
+                {
+                    Scanner s= new Scanner(System.in);
+                    System.out.println("Enter your name:");
+                    String name=s.next();
+                    System.out.println("Enter your age:");
+                    int age=s.nextInt();
+                    System.out.println("Enter your course:");
+                    String course=s.next();
+                    System.out.println("Enter your Phone Number:");
+                    long phone = s.nextLong();
+                    System.out.println("___________________________________");
+                    System.out.println("Name:" +name);
+                    System.out.println("Age:" +age);
+                    System.out.println("Course:" +course);
+                    System.out.println("Phone Number:" +phone);
+
+
+                }
+            }
+
