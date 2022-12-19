@@ -1,0 +1,27 @@
+/*
+factorial number by using for loop
+   factorial of a positive number n is the product of all values from n to 1.
+   for example 
+   the factorial of 5 is 
+   (5*4*3*2*1=120).
+
+*/
+
+import java.util.Scanner;
+class Factorial
+{
+	public static void main(String args[])
+	{  
+		  
+		  int fact=1;
+		System.out.println("Enter your no");
+		Scanner s= new Scanner(System.in);
+		int no = s.nextInt();
+		for(int i=1;i<=no;i++)
+			{
+				fact=fact*i;
+			}
+	  System.out.println("Factorial of" +no+ "is" +fact);
+
+	}
+}
