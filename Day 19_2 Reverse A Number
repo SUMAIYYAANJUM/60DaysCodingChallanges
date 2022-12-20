@@ -1,0 +1,19 @@
+/*
+Reverse A Number 
+Reversing a number implies that the value of the unit of a particular number will become the nth digit value if the number is n digits long and tens digit number will become (n-1)th place value number on and so forth.
+*/
+
+class ReverseANumber
+{
+	public static void main(String args[])
+	{
+		int no=2319,rem,rev=0;
+		while(no!=0)
+		{
+			rem=no%10;
+			rev=rev*10+rem;
+			no=no/10;
+		}
+		System.out.println(rev);
+	}
+}
