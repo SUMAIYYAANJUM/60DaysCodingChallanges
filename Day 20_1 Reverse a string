@@ -1,0 +1,35 @@
+/*
+Reverse a string
+
+To reverse a string we have to use two methods of string 
+  length()
+  charAt()
+
+  length() will show total no of characters of string
+  charAt() will show iss string mein kounsa character kis index pr exist karta hai.
+  example  skrma
+           01234
+
+
+           charAt(1)=k
+           charAt(0)=s
+           charAt(4)=a
+
+
+           */
+
+           class ReverseAString
+           {
+           	public static void main(String args[])
+           	{
+           		String name="skrma";
+           		int leng = name.length();
+           		String rev ="";
+           		for(int i= leng-1;i>=0;i++)
+           		{
+           			rev= rev+name.charAt(1);
+           		}
+           		System.out.println(rev);
+           	}
+
+           }
