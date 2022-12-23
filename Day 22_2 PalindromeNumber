@@ -1,0 +1,40 @@
+/*
+  Palindrome Number 
+     palindrome number is a number that is same number after reverse it.
+     In this we will use concept of reverse a number.
+     For example 545, 151, 34543, 343, 171, 48984 are the palindrome numbers. 
+     It can also be a string like LOL, MADAM etc which    
+
+
+
+*/
+     import java.util.Scanner;
+     class PalindromeNumber
+     {
+        public static void main(String args[]){
+        	Scanner s = new Scanner(System.in);
+        	System.out.println("Enter the number:");
+        	int no = s.nextInt();
+        	 int temp = no;
+        	 int rev =0,rem;
+        	while(temp!=0)
+        	{
+        		rem = temp%10;
+        		rev =rev * 10+rem;
+        		temp = temp/10;
+        		
+        	}
+        	   if(no==rev)
+        	   	{
+        	   		System.out.println(no+ "is palindrome number");
+        	   	}
+        	
+        	else{
+        		System.out.println(no+ "is not a palindrome number.");
+        	}
+        }
+     }
+
+
+
+
