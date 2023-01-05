@@ -1,0 +1,36 @@
+/*
+
+  Inheritance
+
+    When we will create new class then it access all properties of existing class then it's called as Inheritance
+    class A --Super class/base class/Parent class
+       |
+       class B -- sub class/Derived class/child class
+
+   */
+   
+   class Super{
+   	int s,k;
+   	void set(int x,int y)
+   	{
+   		s=x;
+   		k=y;
+   			}
+   }
+      class Base extends Super
+      {
+      	int total;
+      	void sum()
+      	{
+      		total=s*k;
+      	}
+      } 
+      class Hello{
+      	public static void main(String args[])
+      	{
+      		Base ob=new Base();
+      		ob.set(21,19);
+      		ob.sum();
+      		System.out.println(ob.total);
+      	}
+      }   
