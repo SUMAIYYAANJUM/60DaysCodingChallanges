@@ -1,0 +1,33 @@
+/*
+
+  Polymorphism
+  Polymorphism created basically by two words which means poly means many morphism means behaviour or form.
+  if we have to do single entity to multiple forms in this case we use polymorphism concept.
+      */
+  class poly
+  {
+  	void add()
+  	{
+  		System.out.println("no parameters");
+  	}
+  	void add(int s)
+  	{
+  		System.out.println("parametrized" +s);
+  	}
+  	void add(int s,int k)
+  	{
+  		System.out.println("2 parameters" +s+"and"+ +k);
+  	}
+  } 
+  class Hello1
+  {
+  	public static void main(String args[])
+  	{
+  		poly ob=new poly();
+  		ob.add();
+  		ob.add(21);
+  		ob.add(21,19);
+  	}
+  }
+
+
