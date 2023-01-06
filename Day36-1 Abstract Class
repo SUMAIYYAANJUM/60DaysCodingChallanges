@@ -1,0 +1,37 @@
+/*
+   Abstract Class
+
+
+     abstract is a keyword.For abstract classes we can not create object.
+     we can create object in sub class of this abstract class.
+     we can not declare abstract method in normal class.
+    */
+      
+      abstract class maths
+      {
+        abstract void add();
+        void subtraction()
+        {
+        	System.out.println("subtraction");
+        }
+      
+       }
+           class maths1 extends maths
+           {
+           	void add()
+           	{
+           		System.out.println("addition");
+           	}
+           }
+           class Hello3
+      	{
+            public static void main(String args[])
+            {
+            	maths1 ob = new maths1();
+            	ob.add();
+            	ob.subtraction();
+            }
+      	}
+      
+
+
