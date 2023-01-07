@@ -1,0 +1,29 @@
+/*
+  Overridding
+  Same functions same parameters is called as overridding.
+  advantage overiding technique if we want to change function of defination of parent class we will declare it in child class.
+  multiple implementation can be provided by the same function
+  */
+   class Abc
+   {
+   	int a=5;
+   	  void disp()
+   	  {
+   	  	System.out.print("a is" +a);
+   	  }
+   }
+   class def extends Abc{
+   	int c=3;void disp()
+   	{
+   		System.out.print("a is"+a);
+   		System.out.print("c is"+c);
+   	}
+   }
+   class Hello4
+   {
+   	public static void main(String args[])
+   	{
+   		def ob = new def();
+   		ob.disp();
+   	}
+   }
