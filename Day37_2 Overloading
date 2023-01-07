@@ -1,0 +1,31 @@
+/*
+   Overloading
+     same method but fifferent paraameters called as overloading
+      no.of aarguements
+      sequence of arguments
+      type of the arguements
+      theses hould be different then it is called as Overloading.
+      */
+
+      class abc
+      {
+      void add()
+      {
+      	System.out.println("Hey!From here Kareema");
+      }
+      void add(int x)
+      {
+      	int i;
+      	i=x;
+      	System.out.println(+i);
+      }
+      }
+      class Hello5
+      {
+      	public static void main(String args[])
+      	{
+      		abc ob = new abc();
+      		ob.add();
+      		ob.add(10);
+      	}
+      }
