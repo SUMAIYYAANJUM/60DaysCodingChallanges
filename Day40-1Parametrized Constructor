@@ -1,0 +1,23 @@
+/*
+   Parametrized Constructor
+   */
+     class hello1
+     {
+      int b;
+      hello1(int a)
+      {
+        b=a;
+      }
+      void disp()
+      {
+      	System.out.print(+b);
+      }
+     }
+     class Hello
+     {
+     	public static void main(String args[])
+     	{
+     		hello1 ob = new hello1(20);
+     		ob.disp();
+     	}
+     }
