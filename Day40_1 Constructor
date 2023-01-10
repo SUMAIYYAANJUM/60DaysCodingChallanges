@@ -1,0 +1,29 @@
+/*
+  Constructor
+
+  constructor is a special type of method
+  constructor does not have any retirn type.
+  in constructor which wil be the class name that is only constructor name.
+  purpose of constructor is to ctreate object
+  */
+  
+class Main {
+  private String name;
+
+  // constructor
+  Main() {
+    System.out.println("Constructor Called:");
+    name = "Programiz";
+  }
+
+  public static void main(String[] args) {
+
+    // constructor is invoked while
+    // creating an object of the Main class
+    Main obj = new Main();
+    System.out.println("The name is " + obj.name);
+  }
+}
+
+
+
