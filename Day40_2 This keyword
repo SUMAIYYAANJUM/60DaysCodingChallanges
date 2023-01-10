@@ -1,0 +1,27 @@
+/*
+   This keyword
+     */
+
+class abc
+{
+	int a,b;
+	void setdata(int a,int b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+	void show()
+	{
+		System.out.println(+a);
+		System.out.println(+b);
+	}
+}
+class ABCD
+{
+	public static void main(String args[])
+	{
+		abc ob=new abc();
+		ob.setdata(10,20);
+		ob.show();
+	}
+}
