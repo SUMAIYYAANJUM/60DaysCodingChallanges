@@ -1,0 +1,34 @@
+/*
+ types of constructor
+  1.Default constructor
+  2.Paramitrized constructor
+
+
+    If we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program. This constructor is called default constructor.
+
+     A Java constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
+
+
+                   Default constructor
+                   */
+     class hello6
+     {
+        int a;
+        hello6()
+        {
+           System.out.println("default Constructor");
+           a=10;
+        }
+          void display()
+          {
+             System.out.println(+a);
+          }
+     }
+       class Constructor
+       {
+          public static void main(String args[])
+          {
+             hello6 ob=new hello6();
+             ob.display();
+          }
+       }
