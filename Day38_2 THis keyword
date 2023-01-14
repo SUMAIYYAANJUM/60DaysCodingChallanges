@@ -1,0 +1,32 @@
+/*
+used to call parent class constructors
+*/
+
+class abc{
+	int a=1000;
+	abc(int a)
+	{
+		this.a=a;
+	}
+}
+class def extends abstract{
+	int a=5000;
+	def(int d,int e)
+	{
+		supper(d);
+		a=e;
+	}
+	void msg()
+	{
+		System.out.println(+a);
+		System.out.println(+super.a);
+	}
+}
+class ABCD
+{
+	public static void main(String args[])
+	{
+		def ob=new def(10,20);
+		ob.msg();
+	}
+}
